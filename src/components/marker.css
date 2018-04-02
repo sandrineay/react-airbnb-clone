@@ -1,14 +1,18 @@
 .marker {
   width: 48px;
   background-color: white;
-  border: 1px solid #999;
+  border: 1px solid rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
   border-radius: 3px;
   font-size: 18px;
   text-align: center;
   padding: 4px 0;
+  color: rgb(50,50,50);
 }
 
 .marker.selected {
-  background-color: yellow;
-  border-color: black;
+  background-color: #388287;
+  border: none;
+  font-weight: bolder;
+  color: rgb(255,255,255);
 }

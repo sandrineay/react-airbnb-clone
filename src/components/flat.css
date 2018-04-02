@@ -5,13 +5,14 @@
 }
 
 .flat:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .flat-picture {
   height: 200px;
   background-size: cover;
   background-position: center;
+  border-radius: 3px;
 }
 
 .flat-title {
